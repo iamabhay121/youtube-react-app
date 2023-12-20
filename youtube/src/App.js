@@ -1,7 +1,14 @@
 import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
 
 function App() {
-  return <h1 className="bg-red-900">Helllo</h1>;
+  return (
+    <div className="container">
+      <Head />
+      <Body />
+    </div>
+  );
 }
 
 export default App;
