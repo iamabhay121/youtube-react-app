@@ -23,7 +23,7 @@ const generatedButtons = listItem.map((item, id) => (
 ));
 
 const ButtonList = () => {
-  return <div className="flex">{generatedButtons}</div>;
+  return <div className="flex ">{generatedButtons}</div>;
 };
 
 export default ButtonList;
