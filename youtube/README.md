@@ -27,3 +27,5 @@ As we want this functionality in every part of the app so we need to use redux.
 -- Created slice in src/utils/features/appSlice. and then imported it into the store.
 
 -- Provided our store to our app.
+
+# Debouncing
